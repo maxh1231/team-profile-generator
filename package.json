@@ -1,0 +1,23 @@
+{
+  "name": "02-challenge",
+  "version": "1.0.0",
+  "description": "Your challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable, you’ll also write unit tests for each part of your code and ensure that it passes all of them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxh1231/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxh1231/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/maxh1231/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1"
+  }
+}
