@@ -1,13 +1,13 @@
 const Employee = require('../lib/Employee');
-const Intern = require('../lib/Intern');
+const Engineer = require('../lib/Engineer');
 
-test('creates a new intern object', () => {
+test('creates new engineer object', () => {
     const employee = new Employee('max', '123', '@gmail.com');
-    const intern = new Intern('university of utah');
+    const engineer = new Engineer('maxh1231')
 
     expect(employee.name).toBe('max');
     expect(employee.id).toBe('123');
     expect(employee.email).toBe('@gmail.com');
 
-    expect(intern.school).toBe('university of utah');
+    expect(engineer.github).toBe('maxh1231');
 })
